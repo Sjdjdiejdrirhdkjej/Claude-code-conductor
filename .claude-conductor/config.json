@@ -1,0 +1,4 @@
+{
+  "model": "claude-3-opus-20240229",
+  "apiKeyInstructions": "Set your Claude API key as an environment variable: ANTHROPIC_API_KEY"
+}

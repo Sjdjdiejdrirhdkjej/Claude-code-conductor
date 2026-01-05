@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-conductor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "claude-code-conductor": "src/conductor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sjdjdiejdrirhdkjej/Claude-code-conductor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sjdjdiejdrirhdkjej/Claude-code-conductor/issues"
+  },
+  "homepage": "https://github.com/Sjdjdiejdrirhdkjej/Claude-code-conductor#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "yargs": "^18.0.0"
+  }
+}
