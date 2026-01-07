@@ -17,7 +17,7 @@
     - [ ] Sub-task: Verify all tests pass (Refactor)
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: CLI & Source Code Refactor' (Protocol in workflow.md)
 
-## Phase 3: Documentation Updates
+## Phase 3: Documentation Updates [checkpoint: cb23914]
 - [x] Task: Update Project Documentation d62274d
     - [ ] Sub-task: Update `README.md` with new command usage
     - [ ] Sub-task: Update `conductor/` files (`product.md`, `tech-stack.md`)
