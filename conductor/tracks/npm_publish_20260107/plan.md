@@ -7,7 +7,7 @@
 - [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 
 ## Phase 2: Init Command Implementation
-- [ ] Task: Create `init` command structure and register it in `bin/claude-conductor.ts`
+- [x] Task: Create `init` command structure and register it in `bin/claude-conductor.ts` [e159a32]
 - [ ] Task: Implement `CommandRegistrar` service to handle `.claude/commands` directory detection and creation
 - [ ] Task: Implement logic to generate shell scripts/configs for `/conductor:*` commands
 - [ ] Task: Conductor - User Manual Verification 'Init Command Implementation' (Protocol in workflow.md)
