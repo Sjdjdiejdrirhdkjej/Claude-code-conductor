@@ -1,4 +1,4 @@
-# Product Guidelines: Claude Conductor
+# Product Guidelines: Claude Code Conductor
 
 ## Prose & Tone
 -   **Tone:** Professional, Minimalist, Direct.

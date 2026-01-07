@@ -1,4 +1,4 @@
-# Tech Stack: Claude Conductor
+# Tech Stack: Claude Code Conductor
 
 ## Core Runtime
 -   **Language:** TypeScript

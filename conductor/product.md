@@ -12,9 +12,7 @@ To provide a structured, context-driven development workflow for Claude Code use
 -   **Context Management:** Automated generation and maintenance of `product.md`, `tech-stack.md`, and `product-guidelines.md`.
 -   **Track System:** A "Tracks" based workflow (`tracks.md`) to manage feature development.
 -   **Planning Engine:** Automated generation of detailed `plan.md` and `spec.md` files for each track.
--   **Agent Delegation:** Capability to delegate tasks to specialized sub-agents (e.g., Codebase Investigator).
--   **State Persistence:** File-based state management using JSON/YAML to track progress across sessions.
--   **CLI Wrapper:** A unified CLI command (e.g., `claude-conductor`) that wraps the underlying Claude Code execution.
+-   **CLI Wrapper:** A unified CLI command (e.g., `claude-code-conductor`) that wraps the underlying Claude Code execution.
 
 ## User Experience
 -   **Interactive Mode:** CLI prompts for setup and decision-making.
