@@ -6,8 +6,8 @@
 -   **Package Manager:** npm
 
 ## CLI Framework
--   **Library:** Commander.js or Yargs (Standard Node.js CLI libraries)
--   **Interactivity:** Inquirer.js or Prompts (for interactive menus)
+-   **Library:** Commander.js
+-   **Interactivity:** Inquirer.js
 -   **Styling:** Chalk (for terminal coloring), Ora (for spinners)
 
 ## Integration
