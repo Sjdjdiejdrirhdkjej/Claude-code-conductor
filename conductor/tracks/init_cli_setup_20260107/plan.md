@@ -1,11 +1,11 @@
 # Plan: Initialize CLI & Core Setup Command
 
-## Phase 1: Project Scaffolding
+## Phase 1: Project Scaffolding [checkpoint: 75b2125]
 - [x] Task: Initialize npm project with `package.json` [1d8258b]
 - [x] Task: Configure TypeScript (`tsconfig.json`) with strict mode [251aaf6]
 - [x] Task: Configure ESLint and Prettier [14073fe]
 - [x] Task: Create project directory structure (`bin`, `src`, `templates`) [7492835]
-- [ ] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
 
 ## Phase 2: Core CLI Infrastructure
 - [ ] Task: Install runtime dependencies (`commander`, `inquirer`, `chalk`, `ora`, `fs-extra`)
