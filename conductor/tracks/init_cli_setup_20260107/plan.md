@@ -17,6 +17,6 @@
 - [x] Task: Implement `conductor:setup` command stub and registration [5c8675a]
 - [x] Task: Implement `ProjectDiscovery` service (Greenfield/Brownfield detection logic) [8cae241]
 - [x] Task: Implement `SetupWizard` class with interactive prompts for Product Definition [741c96f]
-- [x] Task: Implement `FileGenerator` service to write `conductor/*.md` files [3d196f1]
-- [ ] Task: Integrate Discovery, Wizard, and Generator into `conductor:setup` command
+- [x] Task: Implement FileGenerator service to write `conductor/*.md` files [3d196f1]
+- [x] Task: Integrate Discovery, Wizard, and Generator into `conductor:setup` command [0ab5605]
 - [ ] Task: Conductor - User Manual Verification 'Project Discovery & Setup Wizard' (Protocol in workflow.md)
