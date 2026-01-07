@@ -7,7 +7,7 @@
     - [ ] Sub-task: Update `package-lock.json` (Green)
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Package Identity Update' (Protocol in workflow.md)
 
-## Phase 2: CLI & Source Code Refactor
+## Phase 2: CLI & Source Code Refactor [checkpoint: de93efc]
 - [x] Task: Rename Binary Entry Point 24daa4a
     - [ ] Sub-task: Rename `bin/claude-conductor.ts` to `bin/claude-code-conductor.ts`
     - [ ] Sub-task: Verify `tsconfig.json` includes the new bin path (it uses glob `bin/**/*` so it should be fine, but verification is needed)
