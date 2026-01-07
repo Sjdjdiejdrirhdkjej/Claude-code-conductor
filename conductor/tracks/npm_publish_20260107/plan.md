@@ -1,7 +1,7 @@
 # Plan: NPM Publication & Slash Command Registration
 
 ## Phase 1: NPM & CLI Configuration
-- [~] Task: Audit and update `package.json` metadata (bin, main, files) and dependencies
+- [x] Task: Audit and update `package.json` metadata (bin, main, files) and dependencies [5a699a6]
 - [ ] Task: Implement `status` and `implement` command stubs in CLI to ensure targets exist
 - [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 
