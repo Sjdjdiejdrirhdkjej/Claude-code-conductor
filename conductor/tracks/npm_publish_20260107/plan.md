@@ -1,9 +1,9 @@
 # Plan: NPM Publication & Slash Command Registration
 
-## Phase 1: NPM & CLI Configuration
+## Phase 1: NPM & CLI Configuration [checkpoint: 7daa017]
 - [x] Task: Audit and update `package.json` metadata (bin, main, files) and dependencies [5a699a6]
 - [x] Task: Implement `status` and `implement` command stubs in CLI to ensure targets exist [1e4a317]
-- [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md) [7daa017]
 - [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 
 ## Phase 2: Init Command Implementation
