@@ -6,11 +6,11 @@
 - [x] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md) [7daa017]
 - [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 
-## Phase 2: Init Command Implementation
+## Phase 2: Init Command Implementation [checkpoint: a096ea3]
 - [x] Task: Create `init` command structure and register it in `bin/claude-conductor.ts` [e159a32]
 - [x] Task: Implement `CommandRegistrar` service to handle `.claude/commands` directory detection and creation [67671a5]
 - [x] Task: Implement logic to generate shell scripts/configs for `/conductor:*` commands [61005a6]
-- [ ] Task: Conductor - User Manual Verification 'Init Command Implementation' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Init Command Implementation' (Protocol in workflow.md) [a096ea3]
 
 ## Phase 3: Validation & Polish
 - [ ] Task: Verify `npm publish --dry-run` succeeds
