@@ -15,7 +15,7 @@
 
 ## Phase 3: Project Discovery & Setup Wizard
 - [x] Task: Implement `conductor:setup` command stub and registration [5c8675a]
-- [ ] Task: Implement `ProjectDiscovery` service (Greenfield/Brownfield detection logic)
+- [x] Task: Implement `ProjectDiscovery` service (Greenfield/Brownfield detection logic) [8cae241]
 - [ ] Task: Implement `SetupWizard` class with interactive prompts for Product Definition
 - [ ] Task: Implement `FileGenerator` service to write `conductor/*.md` files
 - [ ] Task: Integrate Discovery, Wizard, and Generator into `conductor:setup` command
