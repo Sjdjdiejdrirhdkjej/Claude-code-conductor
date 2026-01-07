@@ -3,7 +3,7 @@
 ## Phase 1: Project Scaffolding
 - [x] Task: Initialize npm project with `package.json` [1d8258b]
 - [x] Task: Configure TypeScript (`tsconfig.json`) with strict mode [251aaf6]
-- [ ] Task: Configure ESLint and Prettier
+- [x] Task: Configure ESLint and Prettier [14073fe]
 - [ ] Task: Create project directory structure (`bin`, `src`, `templates`)
 - [ ] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
 
