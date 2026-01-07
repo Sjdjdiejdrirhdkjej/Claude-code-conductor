@@ -1,0 +1,8 @@
+{
+  "track_id": "npm_publish_20260107",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-01-07T00:00:00Z",
+  "updated_at": "2026-01-07T00:00:00Z",
+  "description": "The project is going to be published on npm. When installed in the user's workspace, Claude Code is going to get more commands from the package. Make sure that happens before git pushing it."
+}

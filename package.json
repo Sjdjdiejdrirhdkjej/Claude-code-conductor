@@ -2,14 +2,22 @@
   "name": "claude-conductor",
   "version": "0.0.1",
   "description": "A CLI wrapper for Claude Code to enforce context-driven development.",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "bin": {
-    "claude-conductor": "bin/claude-conductor.ts"
+    "claude-conductor": "dist/bin/claude-conductor.js"
   },
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build && npm test",
     "test": "jest",
     "lint": "ESLINT_USE_FLAT_CONFIG=false eslint src/**/*.ts bin/**/*.ts"
   },
+  "files": [
+    "dist",
+    "conductor",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "claude",
     "cli",
