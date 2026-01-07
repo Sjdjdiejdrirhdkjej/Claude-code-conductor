@@ -7,11 +7,11 @@
 - [x] Task: Create project directory structure (`bin`, `src`, `templates`) [7492835]
 - [~] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
 
-## Phase 2: Core CLI Infrastructure
+## Phase 2: Core CLI Infrastructure [checkpoint: 76c4681]
 - [x] Task: Install runtime dependencies (`commander`, `inquirer`, `chalk`, `ora`, `fs-extra`) [41c3df6]
 - [x] Task: Create CLI entry point `bin/claude-conductor.ts` and verify execution [7520ce5]
 - [x] Task: Implement basic `commander` program setup with version and help [46301a7]
-- [~] Task: Conductor - User Manual Verification 'Core CLI Infrastructure' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Core CLI Infrastructure' (Protocol in workflow.md) [76c4681]
 
 ## Phase 3: Project Discovery & Setup Wizard
 - [ ] Task: Implement `conductor:setup` command stub and registration
