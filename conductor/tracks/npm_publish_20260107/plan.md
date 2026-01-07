@@ -14,5 +14,5 @@
 
 ## Phase 3: Validation & Polish
 - [x] Task: Verify `npm publish --dry-run` succeeds [f7890a3]
-- [ ] Task: End-to-end test: Run `init` and verify generated commands invoke the CLI correctly
+- [x] Task: End-to-end test: Run `init` and verify generated commands invoke the CLI correctly [236879e]
 - [ ] Task: Conductor - User Manual Verification 'Validation & Polish' (Protocol in workflow.md)
