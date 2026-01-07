@@ -13,6 +13,6 @@
 - [x] Task: Conductor - User Manual Verification 'Init Command Implementation' (Protocol in workflow.md) [a096ea3]
 
 ## Phase 3: Validation & Polish
-- [ ] Task: Verify `npm publish --dry-run` succeeds
+- [~] Task: Verify `npm publish --dry-run` succeeds
 - [ ] Task: End-to-end test: Run `init` and verify generated commands invoke the CLI correctly
 - [ ] Task: Conductor - User Manual Verification 'Validation & Polish' (Protocol in workflow.md)
