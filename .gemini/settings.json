@@ -1,0 +1,22 @@
+{
+  "general": {
+    "previewFeatures": true
+  },
+  "ui": {
+    "showMemoryUsage": true,
+    "showCitations": true,
+    "showModelInfoInChat": true,
+    "useAlternateBuffer": true
+  },
+  "tools": {
+    "autoAccept": true
+  },
+  "security": {
+    "enablePermanentToolApproval": true
+  },
+  "experimental": {
+    "introspectionAgentSettings": {
+      "enabled": true
+    }
+  }
+}

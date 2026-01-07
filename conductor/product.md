@@ -8,6 +8,7 @@ To provide a structured, context-driven development workflow for Claude Code use
 
 ## Core Features
 -   **Project Initialization:** Interactive wizard to classify projects (Greenfield/Brownfield) and set up the `conductor/` directory structure.
+-   **Command Integration:** Automated registration of `conductor` commands (`setup`, `implement`, `status`) as native slash commands in the Claude Code environment.
 -   **Context Management:** Automated generation and maintenance of `product.md`, `tech-stack.md`, and `product-guidelines.md`.
 -   **Track System:** A "Tracks" based workflow (`tracks.md`) to manage feature development.
 -   **Planning Engine:** Automated generation of detailed `plan.md` and `spec.md` files for each track.
