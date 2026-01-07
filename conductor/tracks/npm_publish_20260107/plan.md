@@ -12,7 +12,7 @@
 - [x] Task: Implement logic to generate shell scripts/configs for `/conductor:*` commands [61005a6]
 - [x] Task: Conductor - User Manual Verification 'Init Command Implementation' (Protocol in workflow.md) [a096ea3]
 
-## Phase 3: Validation & Polish
+## Phase 3: Validation & Polish [checkpoint: 6ec0b1d]
 - [x] Task: Verify `npm publish --dry-run` succeeds [f7890a3]
 - [x] Task: End-to-end test: Run `init` and verify generated commands invoke the CLI correctly [236879e]
-- [ ] Task: Conductor - User Manual Verification 'Validation & Polish' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Validation & Polish' (Protocol in workflow.md) [6ec0b1d]
