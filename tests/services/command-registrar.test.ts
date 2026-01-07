@@ -19,4 +19,23 @@ describe('CommandRegistrar', () => {
 
     expect(fs.ensureDir).toHaveBeenCalledWith(commandsDir);
   });
+
+  it('should generate command scripts', async () => {
+    const commandsDir = path.join(mockCwd, '.claude/commands');
+    (fs.ensureDir as jest.Mock).mockResolvedValue(undefined);
+    (fs.writeFile as unknown as jest.Mock).mockResolvedValue(undefined);
+    (fs.chmod as unknown as jest.Mock).mockResolvedValue(undefined);
+
+    await CommandRegistrar.registerCommands(mockCwd);
+
+    const commands = ['setup', 'implement', 'status'];
+    for (const cmd of commands) {
+      const expectedPath = path.join(commandsDir, `conductor:${cmd}`);
+      expect(fs.writeFile).toHaveBeenCalledWith(
+        expectedPath,
+        expect.stringContaining(`npx claude-conductor ${cmd}`)
+      );
+      expect(fs.chmod).toHaveBeenCalledWith(expectedPath, '755');
+    }
+  });
 });
