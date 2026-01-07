@@ -7,6 +7,7 @@ import path from 'path';
 import { registerSetupCommand } from '../src/commands/setup';
 import { registerImplementCommand } from '../src/commands/implement';
 import { registerStatusCommand } from '../src/commands/status';
+import { registerInitCommand } from '../src/commands/init';
 
 const program = new Command();
 
@@ -21,6 +22,7 @@ program
 registerSetupCommand(program);
 registerImplementCommand(program);
 registerStatusCommand(program);
+registerInitCommand(program);
 
 program.action(() => {
   console.log(chalk.green('Welcome to Conductor!'));
