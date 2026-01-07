@@ -4,7 +4,7 @@ import { exec } from 'child_process';
 
 describe('End-to-End: Init and Command Execution', () => {
   const tmpDir = path.join(__dirname, 'tmp-e2e');
-  const binPath = path.resolve(__dirname, '../../bin/claude-conductor.ts');
+  const binPath = path.resolve(__dirname, '../../bin/claude-code-conductor.ts');
   const commandsDir = path.join(tmpDir, '.claude/commands');
 
   beforeAll(async () => {
@@ -30,7 +30,7 @@ describe('End-to-End: Init and Command Execution', () => {
 
       // Verify content
       const content = await fs.readFile(statusCmd, 'utf8');
-      expect(content).toContain('npx claude-conductor status');
+      expect(content).toContain('npx claude-code-conductor status');
 
       done();
     });

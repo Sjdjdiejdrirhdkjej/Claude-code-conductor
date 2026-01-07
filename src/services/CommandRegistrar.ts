@@ -14,7 +14,7 @@ export class CommandRegistrar {
 
     for (const cmd of commands) {
       const scriptPath = path.join(commandsDir, `conductor:${cmd}`);
-      const content = `#!/bin/sh\nnpx claude-conductor ${cmd} "$@"\n`;
+      const content = `#!/bin/sh\nnpx claude-code-conductor ${cmd} "$@"\n`;
       
       await fs.writeFile(scriptPath, content);
       await fs.chmod(scriptPath, '755');

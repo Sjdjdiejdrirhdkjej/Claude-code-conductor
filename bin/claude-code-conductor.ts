@@ -17,7 +17,7 @@ const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
 
 program
   .version(packageJson.version)
-  .description(chalk.blue('Conductor: A context-driven wrapper for Claude Code'));
+  .description(chalk.blue('Claude Code Conductor: A context-driven wrapper for Claude Code'));
 
 registerSetupCommand(program);
 registerImplementCommand(program);
@@ -25,7 +25,7 @@ registerStatusCommand(program);
 registerInitCommand(program);
 
 program.action(() => {
-  console.log(chalk.green('Welcome to Conductor!'));
+  console.log(chalk.green('Welcome to Claude Code Conductor!'));
   program.help();
 });
 

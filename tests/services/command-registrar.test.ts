@@ -33,7 +33,7 @@ describe('CommandRegistrar', () => {
       const expectedPath = path.join(commandsDir, `conductor:${cmd}`);
       expect(fs.writeFile).toHaveBeenCalledWith(
         expectedPath,
-        expect.stringContaining(`npx claude-conductor ${cmd}`)
+        expect.stringContaining(`npx claude-code-conductor ${cmd}`)
       );
       expect(fs.chmod).toHaveBeenCalledWith(expectedPath, '755');
     }

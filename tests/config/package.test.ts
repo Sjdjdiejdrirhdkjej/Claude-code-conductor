@@ -10,17 +10,17 @@ describe('NPM Configuration', () => {
   });
 
   it('should have correct metadata', () => {
-    expect(packageJson.name).toBe('claude-conductor');
+    expect(packageJson.name).toBe('claude-code-conductor');
     expect(packageJson.version).toBeDefined();
     expect(packageJson.description).toBeDefined();
     expect(packageJson.license).toBeDefined();
   });
 
   it('should point bin to a dist file or be executable', () => {
-     // Ideally, it should point to dist/bin/claude-conductor.js for production
+     // Ideally, it should point to dist/bin/claude-code-conductor.js for production
      // But currently it points to ts file. We should update this to point to the compiled version
      // AND ensure we have a build script.
-     expect(packageJson.bin['claude-conductor']).toMatch(/dist\/bin\/claude-conductor\.js/);
+     expect(packageJson.bin['claude-code-conductor']).toMatch(/dist\/bin\/claude-code-conductor\.js/);
   });
 
   it('should have a files allowlist', () => {

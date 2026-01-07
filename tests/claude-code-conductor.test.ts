@@ -1,7 +1,7 @@
 import { exec } from 'child_process';
 import path from 'path';
 
-const cliPath = path.join(__dirname, '../bin/claude-conductor.ts');
+const cliPath = path.join(__dirname, '../bin/claude-code-conductor.ts');
 
 describe('CLI Entry Point', () => {
   it('should display the version', (done) => {
@@ -15,7 +15,7 @@ describe('CLI Entry Point', () => {
   it('should display welcome message and help on default action', (done) => {
      exec(`npx ts-node ${cliPath}`, (error, stdout, stderr) => {
         expect(error).toBeNull();
-        expect(stdout).toContain('Welcome to Conductor!');
+        expect(stdout).toContain('Welcome to Claude Code Conductor!');
         expect(stdout).toContain('Usage:');
         done();
      });

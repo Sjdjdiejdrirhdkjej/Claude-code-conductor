@@ -26,6 +26,6 @@ export function registerSetupCommand(program: Command) {
       console.log(chalk.blue('Generating Conductor files...'));
       await FileGenerator.generateFiles(process.cwd(), productDefinition);
       
-      console.log(chalk.green('Setup complete! Welcome to Conductor.'));
+      console.log(chalk.green('Setup complete! Welcome to Claude Code Conductor.'));
     });
 }
