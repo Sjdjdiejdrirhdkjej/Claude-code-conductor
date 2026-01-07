@@ -2,7 +2,8 @@
 
 ## Phase 1: NPM & CLI Configuration
 - [x] Task: Audit and update `package.json` metadata (bin, main, files) and dependencies [5a699a6]
-- [ ] Task: Implement `status` and `implement` command stubs in CLI to ensure targets exist
+- [x] Task: Implement `status` and `implement` command stubs in CLI to ensure targets exist [1e4a317]
+- [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 - [ ] Task: Conductor - User Manual Verification 'NPM & CLI Configuration' (Protocol in workflow.md)
 
 ## Phase 2: Init Command Implementation
