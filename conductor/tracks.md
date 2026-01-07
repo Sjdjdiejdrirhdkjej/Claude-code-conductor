@@ -4,5 +4,6 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-## [~] Track: Initialize the `claude-conductor` CLI project structure and implement the core `setup` command.
-*Link: [./conductor/tracks/init_cli_setup_20260107/](./conductor/tracks/init_cli_setup_20260107/)*
+## [~] Track: The project is going to be published on npm. When installed in the user's workspace, Claude Code is going to get more commands from the package. Make sure that happens before git pushing it.
+*Link: [./conductor/tracks/npm_publish_20260107/](./conductor/tracks/npm_publish_20260107/)*
+
