@@ -4,7 +4,7 @@
 - [x] Task: Initialize npm project with `package.json` [1d8258b]
 - [x] Task: Configure TypeScript (`tsconfig.json`) with strict mode [251aaf6]
 - [x] Task: Configure ESLint and Prettier [14073fe]
-- [ ] Task: Create project directory structure (`bin`, `src`, `templates`)
+- [x] Task: Create project directory structure (`bin`, `src`, `templates`) [7492835]
 - [ ] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
 
 ## Phase 2: Core CLI Infrastructure
