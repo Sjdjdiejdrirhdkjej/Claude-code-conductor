@@ -1,7 +1,7 @@
 # Plan: Initialize CLI & Core Setup Command
 
 ## Phase 1: Project Scaffolding
-- [ ] Task: Initialize npm project with `package.json`
+- [x] Task: Initialize npm project with `package.json` [1d8258b]
 - [ ] Task: Configure TypeScript (`tsconfig.json`) with strict mode
 - [ ] Task: Configure ESLint and Prettier
 - [ ] Task: Create project directory structure (`bin`, `src`, `templates`)
