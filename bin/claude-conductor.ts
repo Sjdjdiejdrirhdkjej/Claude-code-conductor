@@ -5,6 +5,8 @@ import chalk from 'chalk';
 import fs from 'fs';
 import path from 'path';
 import { registerSetupCommand } from '../src/commands/setup';
+import { registerImplementCommand } from '../src/commands/implement';
+import { registerStatusCommand } from '../src/commands/status';
 
 const program = new Command();
 
@@ -17,6 +19,8 @@ program
   .description(chalk.blue('Conductor: A context-driven wrapper for Claude Code'));
 
 registerSetupCommand(program);
+registerImplementCommand(program);
+registerStatusCommand(program);
 
 program.action(() => {
   console.log(chalk.green('Welcome to Conductor!'));
