@@ -14,7 +14,7 @@
 - [x] Task: Conductor - User Manual Verification 'Core CLI Infrastructure' (Protocol in workflow.md) [76c4681]
 
 ## Phase 3: Project Discovery & Setup Wizard
-- [ ] Task: Implement `conductor:setup` command stub and registration
+- [x] Task: Implement `conductor:setup` command stub and registration [5c8675a]
 - [ ] Task: Implement `ProjectDiscovery` service (Greenfield/Brownfield detection logic)
 - [ ] Task: Implement `SetupWizard` class with interactive prompts for Product Definition
 - [ ] Task: Implement `FileGenerator` service to write `conductor/*.md` files
