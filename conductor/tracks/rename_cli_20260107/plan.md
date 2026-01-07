@@ -11,7 +11,7 @@
 - [x] Task: Rename Binary Entry Point 24daa4a
     - [ ] Sub-task: Rename `bin/claude-conductor.ts` to `bin/claude-code-conductor.ts`
     - [ ] Sub-task: Verify `tsconfig.json` includes the new bin path (it uses glob `bin/**/*` so it should be fine, but verification is needed)
-- [ ] Task: Update CLI Output & Strings
+- [x] Task: Update CLI Output & Strings ab559a1
     - [ ] Sub-task: Update existing tests to expect "Claude Code Conductor" in help/version output (Red)
     - [ ] Sub-task: Search and replace user-facing strings in `src/` (Green)
     - [ ] Sub-task: Verify all tests pass (Refactor)
