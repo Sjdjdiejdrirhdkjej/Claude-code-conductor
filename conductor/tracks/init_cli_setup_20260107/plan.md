@@ -8,7 +8,7 @@
 - [~] Task: Conductor - User Manual Verification 'Project Scaffolding' (Protocol in workflow.md)
 
 ## Phase 2: Core CLI Infrastructure
-- [ ] Task: Install runtime dependencies (`commander`, `inquirer`, `chalk`, `ora`, `fs-extra`)
+- [x] Task: Install runtime dependencies (`commander`, `inquirer`, `chalk`, `ora`, `fs-extra`) [41c3df6]
 - [ ] Task: Create CLI entry point `bin/claude-conductor.ts` and verify execution
 - [ ] Task: Implement basic `commander` program setup with version and help
 - [ ] Task: Conductor - User Manual Verification 'Core CLI Infrastructure' (Protocol in workflow.md)
