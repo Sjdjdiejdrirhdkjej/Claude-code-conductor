@@ -13,10 +13,10 @@
 - [x] Task: Implement basic `commander` program setup with version and help [46301a7]
 - [x] Task: Conductor - User Manual Verification 'Core CLI Infrastructure' (Protocol in workflow.md) [76c4681]
 
-## Phase 3: Project Discovery & Setup Wizard
+## Phase 3: Project Discovery & Setup Wizard [checkpoint: 00d71fa]
 - [x] Task: Implement `conductor:setup` command stub and registration [5c8675a]
 - [x] Task: Implement `ProjectDiscovery` service (Greenfield/Brownfield detection logic) [8cae241]
 - [x] Task: Implement `SetupWizard` class with interactive prompts for Product Definition [741c96f]
-- [x] Task: Implement FileGenerator service to write `conductor/*.md` files [3d196f1]
+- [x] Task: Implement `FileGenerator` service to write `conductor/*.md` files [3d196f1]
 - [x] Task: Integrate Discovery, Wizard, and Generator into `conductor:setup` command [0ab5605]
-- [ ] Task: Conductor - User Manual Verification 'Project Discovery & Setup Wizard' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Project Discovery & Setup Wizard' (Protocol in workflow.md) [00d71fa]
