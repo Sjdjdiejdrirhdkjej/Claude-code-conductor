@@ -13,3 +13,7 @@
 ## Integration
 -   **AI Engine:** Claude Code (via `claude` CLI execution)
 -   **Context Storage:** Markdown (`.md`) and JSON (`.json`) files
+
+## Testing
+-   **Framework:** Jest
+-   **Runner:** ts-jest
