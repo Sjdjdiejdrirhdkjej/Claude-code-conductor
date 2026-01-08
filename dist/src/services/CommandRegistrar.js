@@ -17,7 +17,7 @@ class CommandRegistrar {
         const commands = ['setup', 'implement', 'status'];
         for (const cmd of commands) {
             const scriptPath = path_1.default.join(commandsDir, `conductor:${cmd}`);
-            const content = `#!/bin/sh\nnpx claude-conductor ${cmd} "$@"\n`;
+            const content = `#!/bin/sh\nnpx claude-code-conductor ${cmd} "$@"\n`;
             await fs_extra_1.default.writeFile(scriptPath, content);
             await fs_extra_1.default.chmod(scriptPath, '755');
         }
