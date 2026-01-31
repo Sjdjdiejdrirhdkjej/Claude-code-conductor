@@ -12,11 +12,29 @@ import { registerInitCommand } from '../src/commands/init';
 const program = new Command();
 
 // Read package.json securely
-const packageJsonPath = path.join(__dirname, '../package.json');
-const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+let version = '0.0.1';
+try {
+  // Try to find package.json relative to this file
+  // In dev: bin/../package.json
+  // In dist: dist/bin/../../package.json
+  const possiblePaths = [
+    path.join(__dirname, '../package.json'),
+    path.join(__dirname, '../../package.json')
+  ];
+
+  for (const p of possiblePaths) {
+    if (fs.existsSync(p)) {
+      const packageJson = JSON.parse(fs.readFileSync(p, 'utf8'));
+      version = packageJson.version;
+      break;
+    }
+  }
+} catch (error) {
+  // Fallback to default version if reading fails
+}
 
 program
-  .version(packageJson.version)
+  .version(version)
   .description(chalk.blue('Claude Code Conductor: A context-driven wrapper for Claude Code'));
 
 registerSetupCommand(program);
